@@ -19,6 +19,10 @@ class Screen1Location extends BeamLocation {
 }
 
 class Screen2Location extends BeamLocation {
+  // this is needed so we can pass the path into location when beaming
+  // the plan is to add beamToNamed('...') where this will not be necessary.
+  Screen2Location([String path]) : super(pathBlueprint: path);
+
   @override
   List<String> get pathBlueprints => [Screen2.path];
 
@@ -32,6 +36,8 @@ class Screen2Location extends BeamLocation {
 }
 
 class Screen3Location extends BeamLocation {
+  Screen3Location([String path]) : super(pathBlueprint: path);
+
   @override
   List<String> get pathBlueprints => [Screen3.path];
 
