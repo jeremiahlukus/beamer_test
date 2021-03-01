@@ -7,9 +7,6 @@ import 'package:flutter/material.dart';
 
 class Screen1Location extends BeamLocation {
   @override
-  List<BeamPage> get pages => [Screen1.beamLocation];
-
-  @override
   List<String> get pathBlueprints => [Screen1.path];
 
   @override
@@ -23,9 +20,6 @@ class Screen1Location extends BeamLocation {
 
 class Screen2Location extends BeamLocation {
   @override
-  List<BeamPage> get pages => [Screen2.beamLocation];
-
-  @override
   List<String> get pathBlueprints => [Screen2.path];
 
   @override
@@ -38,9 +32,6 @@ class Screen2Location extends BeamLocation {
 }
 
 class Screen3Location extends BeamLocation {
-  @override
-  List<BeamPage> get pages => [Screen3.beamLocation];
-
   @override
   List<String> get pathBlueprints => [Screen3.path];
 
