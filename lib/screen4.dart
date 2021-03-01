@@ -1,9 +1,6 @@
-import 'package:beamer/beamer.dart';
 import 'package:flutter/cupertino.dart';
 
 class Screen4 extends StatelessWidget {
-  static final beamLocation =
-      BeamPage(key: ValueKey('screen4'), child: Screen4());
   static final path = '/screen4';
 
   @override

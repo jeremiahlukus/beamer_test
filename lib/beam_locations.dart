@@ -10,7 +10,7 @@ class Screen1Location extends BeamLocation {
   List<String> get pathBlueprints => [Screen1.path];
 
   @override
-  List<BeamPage> pagesBuilder(BuildContext context) => [
+  List<BeamPage> get pages => [
         BeamPage(
           key: ValueKey(Screen1.path),
           child: Screen1(),
@@ -23,7 +23,7 @@ class Screen2Location extends BeamLocation {
   List<String> get pathBlueprints => [Screen2.path];
 
   @override
-  List<BeamPage> pagesBuilder(BuildContext context) => [
+  List<BeamPage> get pages => [
         BeamPage(
           key: ValueKey(Screen2.path),
           child: Screen2(),
@@ -36,7 +36,7 @@ class Screen3Location extends BeamLocation {
   List<String> get pathBlueprints => [Screen3.path];
 
   @override
-  List<BeamPage> pagesBuilder(BuildContext context) => [
+  List<BeamPage> get pages => [
         BeamPage(
           key: ValueKey(Screen3.path),
           child: Screen3(),
@@ -46,13 +46,10 @@ class Screen3Location extends BeamLocation {
 
 class Screen4Location extends BeamLocation {
   @override
-  List<BeamPage> get pages => [Screen4.beamLocation];
-
-  @override
   List<String> get pathBlueprints => [Screen4.path];
 
   @override
-  List<BeamPage> pagesBuilder(BuildContext context) => [
+  List<BeamPage> get pages => [
         BeamPage(
           key: ValueKey(Screen4.path),
           child: Screen4(),

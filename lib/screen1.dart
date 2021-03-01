@@ -4,8 +4,6 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class Screen1 extends StatelessWidget {
-  static final beamLocation =
-      BeamPage(key: ValueKey('screen1'), child: Screen1());
   static final path = '/screen1';
 
   @override
